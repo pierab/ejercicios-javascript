@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>								
+	<meta charset="UTF-8">			
+	<title>Document</title>
+	<script>
+			var miembros=prompt('Ingresa el número de miembros:');
+			suma=0;
+			for(i=1;i<=miembros;i++){
+				estatura=prompt('Ingresa la estatura del miembro número '+i+': ');
+				suma=suma+parseFloat(estatura);
+				}
+				document.write('El promedio de estatura es: ');
+				document.write(parseFloat(suma)/parseFloat(miembros))
+			
+	</script>
+</head>
+<body>

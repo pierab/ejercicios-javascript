@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>								
+	<meta charset="UTF-8">			
+	<title>Document</title>
+	
+    <script language=javascript>
+      var x = 1;
+      var y = 1;
+      var z;
+      var fin = prompt("Hasta donde quieres llegar:");
+                document.write("La   Serie es:");
+                document.write("<br>");
+                document.write(x   + "<br>");
+                document.write(y   + "<br>");
+                z   = y + x;
+                document.write(z   + "<br>");
+                for(var i = 3; i <= fin-1;   i++){
+		        x = y;
+		        y = z;
+		        z = y + x;
+		        document.write(z +   "<br>");
+		        }                                          
+        </script>
+</head>
+<body>

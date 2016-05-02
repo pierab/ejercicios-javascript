@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>								
+	<meta charset="UTF-8">			
+	<title>Document</title>
+	<script>
+
+	var pago=parseInt(prompt("¿Cuánto es el pago por hora?"));
+	var totalHoras=0;
+	for (i=1;i<=6;i++){
+		horas=parseInt(prompt("Ingresa las horas trabajadas el día "+i+" :"));
+		totalHoras=totalHoras+horas;
+	}
+	document.write("En la semana hizo :"+totalHoras)
+	document.write("<br>Entonces semanal debe recibir"+(totalHoras*pago));	
+	</script>
+</head>
+<body>

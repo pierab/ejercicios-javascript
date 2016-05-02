@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		
+		var su = 0;
+		var nu = prompt("Indica el número de alumnos: ");
+
+		for (var i = 1; i <= nu; i++) {
+		var ed = prompt("Indica la edad del " + i + "° alumno:");
+		su = parseInt(su) + parseInt(ed);
+		}
+
+		var pr = su / nu;
+
+		document.write("La edad promedio de los " + nu + " alumnos es: " + pr);
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
